@@ -26,7 +26,7 @@ const LeftMenu = () => {
 
     return (
         <div
-            className={`md:block w-[240px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-9 translate-x-[-240px] md:translate-x-0 transition-all ${
+            className={`md:block w-[240px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-50 translate-x-[-240px] md:translate-x-0 transition-all ${
                 mobileMenu ? "translate-x-0" : ""
             }`}
         >
